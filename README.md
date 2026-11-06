@@ -31,6 +31,14 @@ The system utilizes a Time-Series Database (InfluxDB) optimized for rapid timest
 
 
 
+
+
+
+
+
+
+
+
 # ⚡ Distributed Real-Time Stream Processor
 
 ## 📖 Overview
@@ -49,3 +57,34 @@ A highly robust, multithreaded engine designed for processing high-velocity data
 `python processor.py`
 
                 
+
+
+
+
+
+
+
+
+
+
+
+
+# 🎬 Programmatic AI Video Effects Engine
+
+## 📖 Overview
+A programmatic video processing engine designed to automate high-end post-production tasks. It uses mathematical matrix transformations and convolution kernels to apply cinematic color grading (Teal & Orange) and motion blur in real-time.
+
+## ✨ Core Features
+*   **Math-Driven LUTs:** Applies complex color transformations using high-precision NumPy matrix multiplications.
+*   **Dynamic Convolution:** Generates directional motion blur programmatically via OpenCV kernels.
+*   **Real-time Rendering:** Processes frames at 30 FPS without relying on heavy video editing software APIs.
+
+## 🛠️ Tech Stack
+*   **Language:** Python
+*   **Libraries:** NumPy, OpenCV
+*   **Concepts:** Linear Algebra, Image Processing, Digital Signal Processing
+
+## 🚀 How to Run Locally
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run the renderer: `python video_engine.py`
+3. Press 'q' to exit the render window.
