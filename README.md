@@ -28,3 +28,24 @@ The system utilizes a Time-Series Database (InfluxDB) optimized for rapid timest
 1. Configure your API keys for market data providers.
 2. Run `python ingest_data.py` to start the real-time data stream.
 3. Execute `python backtest.py --strategy mean_reversion` to run the statistical models.
+
+
+
+# ⚡ Distributed Real-Time Stream Processor
+
+## 📖 Overview
+A highly robust, multithreaded engine designed for processing high-velocity data streams. It utilizes concurrent producer-consumer patterns and memory-efficient sliding windows to perform on-the-fly statistical analytics without data loss.
+
+## ✨ Core Features
+*   **High Throughput:** Handles up to 100+ events/sec per thread.
+*   **Memory Efficient:** Uses `deque` for O(1) time complexity on sliding window operations.
+*   **Fault Tolerant:** Graceful shutdown mechanisms ensure no data in the queue is lost.
+
+## 🛠️ Tech Stack
+*   **Language:** Python 3.8+ (Threading, Queue)
+*   **Architecture:** Producer-Consumer Pattern, In-Memory Caching
+
+## 🚀 How to Run
+`python processor.py`
+
+                
